@@ -1,0 +1,9 @@
+{
+  "Authors": "FTD-JP BMP",
+  "Version": "00000000-0000-0000-0000-000000000000",
+  "ComponentId": {
+    "Guid": "3c9c50e1-46b8-4b00-a32e-52a78cf9a84b",
+    "Name": "BMEffects_Remaster"
+  },
+  "Description": "Remaster of BMEffectUpdate"
+}
