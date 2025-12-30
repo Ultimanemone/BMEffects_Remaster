@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj": {}
+    "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj": {
+    "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj",
+        "projectUniqueName": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj",
         "projectName": "BMEffects_Remaster",
-        "projectPath": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj",
-        "packagesPath": "C:\\Users\\LOTTE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\obj\\",
+        "projectPath": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\BMEffects_Remaster.csproj",
+        "packagesPath": "C:\\Users\\NoOne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LOTTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\NoOne\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,13 +35,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "netstandard2.1": {
@@ -65,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

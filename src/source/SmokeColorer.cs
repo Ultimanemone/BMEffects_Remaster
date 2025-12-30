@@ -23,7 +23,7 @@ namespace BMEffects_Remaster
         {
             if (mat != null)
             {
-                float timeMult = Mathf.Cos((FtdEnvironmentManager.Instance.TimeOfDay - 12f) / 24f * Mathf.PI * 2f) * 0.7f + 0.3f;
+                float timeMult = Mathf.Abs((FtdEnvironmentManager.Instance.TimeOfDay + 12f) % 24f - 12f) / 12f * 0.85f + 0.15f;
                 //Color ambientColor = FtdEnvironmentManager.Instance.CurrentWeather.AmbientLightColor * FtdEnvironmentManager.Instance.CurrentWeather.AmbientLightIntensity;
                 //Color sunshaftColor = FtdEnvironmentManager.Instance.CurrentWeather.SunShaftColor * FtdEnvironmentManager.Instance.CurrentWeather.SunShaftIntensity;
                 mat.SetColor("_Color1", color1 * timeMult);
