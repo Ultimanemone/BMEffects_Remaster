@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 
@@ -6,28 +7,29 @@ namespace BMEffects_Remaster
     public class ContinuousBeamColorizer : MonoBehaviour
     {
         public Color _color;
-        private Gradient _gradient;
         private float _counter;
         private ParticleSystem[] _psList;
+        private ParticleSystem _starter;
         private LineRenderer[] _lrList;
         private Vector3 _prevStart;
         private Vector3 _prevEnd;
         private float _width;
         private const float widthMult = 0.1f;
+        private bool _started = false;
 
         private void Awake()
         {
             _color = Color.white;
-            _gradient = new Gradient();
 
             _psList = GetComponentsInChildren<ParticleSystem>();
+            _starter = _psList.First(x => x.name == "Start");
             _lrList = GetComponentsInChildren<LineRenderer>();
         }
 
         private void Update()
         {
             _color.a = _counter / 0.25f;
-            _counter = Mathf.Max(0, _counter - Time.deltaTime);
+            _counter = Mathf.Max(0f, _counter - Time.deltaTime);
 
             Color c = _color;
             c.a *= _counter / 0.25f;
@@ -39,7 +41,7 @@ namespace BMEffects_Remaster
                     var temp = ps.main;
                     temp.startColor = c;
 
-                    ps.transform.localScale = Vector3.one * _width * widthMult;
+                    ps.transform.localScale = Vector3.one * Mathf.Max(_width, 0.5f) * widthMult;
                 }
             }
 
@@ -51,10 +53,23 @@ namespace BMEffects_Remaster
                     lr.endColor = c;
                 }
             }
+
+            if (_counter == 0f && _started)
+            {
+                BMEUtils.PlaySound(AssetRegistryPatch.wave_end, transform.position, 1.5f);
+                _started = false;
+            }
         }
 
         public void Fire(Color color, Vector3 start, Vector3 end, Vector3 direction, float width)
         {
+            if (_counter == 0f)
+            {
+                BMEUtils.PlaySound(AssetRegistryPatch.wave_start, start, 1.5f);
+                _starter?.Play();
+                _started = true;
+            }
+
             _color = color;
             _counter = 0.25f;
 

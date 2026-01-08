@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.60f1
-CRC: 2378541611
+CRC: 440959203
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 497fca5943bd2f40a4cf3b6f7c0faca5
+    Hash: 420c9ff0c4913566776305173fd11fb0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9a66b633389c10bca7d686749ea22c18
+    Hash: ebde0bd29c7d2f8a0eb9c54f178eb077
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 52c82607e88dfe644f08a700567c0b35
+    Hash: 82b55a210362a882b86efd9ff2701924
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,6 +41,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d573ffb8094741541a001129a864d9ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 120
   Script: {instanceID: 0}
 - Class: 135
@@ -55,208 +59,220 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/VFX/BM Effects/Mat2/T2.mat
-- Assets/VFX/BM Effects/Shaders/laserCore Dark.shadergraph
-- Assets/VFX/BM Effects/Shaders/laserSpark.shadergraph
-- Assets/VFX/BM Effects/Shaders/bm_shield.shader
-- Assets/VFX/BM Effects/Materials/WaterSplash.mat
-- Assets/VFX/BM Effects/VFX/Splash/Splash.prefab
-- Assets/VFX/BM Effects/Materials/LaserBase.mat
-- Assets/VFX/BM Effects/Texture/Particle.png
-- Assets/VFX/BM Effects/Texture/Thunder 1.png
-- Assets/VFX/BM Effects/ocean/oceantex/wave2.png
-- "Assets/VFX/BM Effects/Mat2/\u30A8\u30F3\u30D6\u30EC\u30E0.mat"
-- Assets/VFX/BM Effects/Shaders/bm_godrayshader.shader
-- Assets/VFX/BM Effects/StandardSphere.prefab
-- Assets/VFX/BM Effects/Materials/FireBillboard.mat
-- Assets/VFX/BM Effects/VFX/Explosions/AtomicBom.prefab
-- Assets/VFX/BM Effects/VFX/Explosions/Expl_Big.prefab
-- Assets/VFX/BM Effects/Materials/FireBillboard2.mat
-- Assets/VFX/BM Effects/Materials/Fire_UVCut.mat
-- Assets/VFX/BM Effects/Texture/SimpleSmoke_White.png
-- Assets/VFX/BM Effects/Mat2/wepsub.mat
-- Assets/VFX/BM Effects/ocean/NonWaterTex.renderTexture
-- Assets/VFX/BM Effects/Materials/ShotParticle.mat
-- Assets/VFX/BM Effects/Materials/ThunderLine.mat
-- Assets/VFX/BM Effects/Texture/Smoke.png
-- Assets/VFX/BM Effects/Materials/ThunderWave.mat
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Big.prefab
-- Assets/VFX/BM Effects/Materials/pulseCore Light.mat
-- Assets/VFX/BM Effects/Shaders/sm_alpha_smoke_missile.shader
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Gigant.prefab
-- Assets/VFX/BM Effects/Mat2/25.ow3.mat
-- Assets/VFX/BM Effects/VFX/Splash/LargeSplash.prefab
-- Assets/VFX/BM Effects/StanderdMat.mat
-- Assets/VFX/BM Effects/Materials/FireAnm.mat
-- Assets/VFX/BM Effects/Mat2/a1.mat
-- Assets/VFX/BM Effects/Materials/Flash.mat
-- Assets/VFX/BM Effects/Texture/ShotParticle.png
-- Assets/VFX/BM Effects/VFX/Splash/HugeSplash.prefab
-- Assets/VFX/BM Effects/Materials/DistBomMat.mat
-- Assets/VFX/BM Effects/Texture/SmokeNormal.png
-- Assets/VFX/BM Effects/VFX/Laser/Wave_SFX.prefab
-- Assets/VFX/BM Effects/Materials/Flash 1.mat
-- Assets/VFX/BM Effects/Mat2/CP.mat
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleRail_Small.prefab
-- Assets/VFX/BM Effects/Mat2/c3.mat
-- Assets/VFX/BM Effects/Materials/WaterSmoke.mat
-- Assets/VFX/BM Effects/Texture/Water.png
-- Assets/VFX/BM Effects/Shaders/laserCore Light.shadergraph
-- Assets/VFX/BM Effects/Mat2/wepsub2.mat
-- Assets/VFX/BM Effects/Materials/laserCore Light.mat
-- Assets/VFX/BM Effects/VFX/Laser/Laser_Pulse.prefab
-- Assets/VFX/BM Effects/VFX/Laser/Laser_Cont.prefab
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Huge.prefab
-- Assets/VFX/BM Effects/Texture/Water_black.png
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Medium.prefab
-- Assets/VFX/BM Effects/Shaders/bm_ocean.shader
-- Assets/VFX/BM Effects/Materials/Fire.mat
-- Assets/VFX/BM Effects/Shaders/lightning.shadergraph
-- Assets/VFX/BM Effects/Materials/MissileTorpedo.mat
-- Assets/VFX/BM Effects/Texture/honeycomb.png
-- Assets/VFX/BM Effects/Texture/WaterNormal.png
-- Assets/VFX/BM Effects/Materials/WatarPillar.mat
-- Assets/VFX/BM Effects/ocean/NonWaterDep.renderTexture
-- Assets/VFX/BM Effects/Shaders/sm_add_uvscroll2_sh.shader
-- Assets/VFX/BM Effects/VFX/Laser/Laser_Cont Dark.prefab
-- Assets/VFX/BM Effects/Texture/noize.png
-- Assets/VFX/BM Effects/VFX/Splash/TrailSplash.prefab
-- Assets/VFX/BM Effects/VFX/Laser/ShockWave.prefab
-- Assets/VFX/BM Effects/Mat2/s1.mat
-- Assets/VFX/BM Effects/Shaders/sm_add.shader
-- Assets/VFX/BM Effects/Materials/Flash_Base.mat
-- Assets/VFX/BM Effects/Texture/SimpleSmokeNormal.png
-- Assets/VFX/BM Effects/Shaders/sm_add_front.shader
-- Assets/VFX/BM Effects/VFX/Splash/SplashBase.prefab
-- Assets/VFX/BM Effects/Materials/MissileSmoke_NoFire.mat
-- Assets/VFX/BM Effects/Materials/Sphere.mat
-- Assets/VFX/BM Effects/Texture/Fire_Loop.png
-- Assets/VFX/BM Effects/VFX/Laser/LightChild.prefab
-- Assets/VFX/BM Effects/Texture/Fire.png
-- Assets/VFX/BM Effects/VFX/Laser/PulseHit.prefab
-- Assets/VFX/BM Effects/Materials/DefaultParticle.mat
-- Assets/VFX/BM Effects/Materials/laserBeam.mat
-- Assets/VFX/BM Effects/Texture/Thunder.png
-- Assets/VFX/BM Effects/Materials/FireLoop_Gravity.mat
-- Assets/VFX/BM Effects/Fire.png
-- Assets/VFX/BM Effects/Texture/ShockWaveRound.png
-- Assets/VFX/BM Effects/Materials/laserCore Dark.mat
-- Assets/VFX/BM Effects/Texture/Fire 1.png
-- Assets/VFX/BM Effects/Texture/Splash.png
-- Assets/VFX/BM Effects/Materials/NormalThunder_invert.mat
-- Assets/VFX/BM Effects/VFX/Explosions/DistShockWave.prefab
-- Assets/VFX/BM Effects/Materials/laserCore.mat
-- Assets/VFX/BM Effects/SFX/wave_laser.wav
-- Assets/VFX/BM Effects/Shaders/normalparticle_alpha.shader
-- Assets/VFX/BM Effects/Texture/Light3.png
-- Assets/VFX/BM Effects/SkyProbe.prefab
-- Assets/VFX/BM Effects/missile/MissileSmoke.prefab
-- Assets/VFX/BM Effects/Materials/RailThunder.mat
-- Assets/VFX/BM Effects/Shaders/sm_add_uvdist__firebeam.shader
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Tiny.prefab
-- Assets/VFX/BM Effects/lens dirt/LensDirt03.png
-- Assets/VFX/BM Effects/VFX/Explosions/Expl_Medium.prefab
-- Assets/VFX/BM Effects/Shaders/sm_add_uvscroll.shader
-- Assets/VFX/BM Effects/VFX/Explosions/Expl_Small.prefab
-- Assets/VFX/BM Effects/Materials/Lightning.mat
-- Assets/VFX/BM Effects/Shaders/bm_ftdshader.shader
-- Assets/VFX/BM Effects/VFX/Laser/PacFlash.prefab
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleRail_Big.prefab
-- Assets/VFX/BM Effects/VFX/Laser/Pulse_SFX.prefab
-- "Assets/VFX/BM Effects/Mat2/\u30B9\u30AF\u30EA\u30FC\u30F3.mat"
-- "Assets/VFX/BM Effects/Mat2/15.\u6B66\u5668\u30B0\u30ED\u30FC.mat"
-- Assets/VFX/BM Effects/Materials/SmokeWhite.mat
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Small.prefab
-- Assets/VFX/BM Effects/Shaders/sm_bigthunder.shader
-- Assets/VFX/BM Effects/Shaders/laserCore.shadergraph
-- Assets/VFX/BM Effects/lens dirt/LensDirt00.png
-- Assets/VFX/BM Effects/Texture/GWater.png
-- Assets/VFX/BM Effects/Texture/SimpleSmoke.png
-- Assets/VFX/BM Effects/Texture/empty.png
-- Assets/VFX/BM Effects/Materials/Smoke_NoFire.mat
-- Assets/VFX/BM Effects/Materials/ShieldMat.mat
-- Assets/VFX/BM Effects/lens dirt/LensDirt02.png
-- Assets/VFX/BM Effects/Texture/FireAnm.png
-- Assets/VFX/BM Effects/Shaders/flashShine.shadergraph
-- Assets/VFX/BM Effects/Materials/SmokeFire.mat
-- Assets/VFX/BM Effects/Materials/FireWave.mat
-- "Assets/VFX/BM Effects/Mat2/22.OW\u8D64\u71B1\u90E8.mat"
-- Assets/VFX/BM Effects/Texture/SplashNormal.png
-- Assets/VFX/BM Effects/Materials/FireLoop.mat
-- "Assets/VFX/BM Effects/Mat2/6.\u30B0\u30ED\u30FC.mat"
-- Assets/VFX/BM Effects/ocean/NoWaterCamera.prefab
-- Assets/VFX/BM Effects/Materials/BasicWave.mat
-- Assets/VFX/BM Effects/Texture/MuzzleAnm1.png
-- Assets/VFX/BM Effects/ocean/oceantex/wave1.png
-- Assets/VFX/BM Effects/Texture/Flash.png
-- Assets/VFX/BM Effects/Materials/NormalThunder.mat
-- Assets/VFX/BM Effects/Materials/Splash.mat
-- Assets/VFX/BM Effects/Mat2/c2.mat
-- Assets/VFX/BM Effects/VFX/Laser/PacThunder.prefab
-- Assets/VFX/BM Effects/missile/MissileTorpedo.prefab
-- Assets/VFX/BM Effects/Shaders/sm_add_uvdist.shader
-- Assets/VFX/BM Effects/Shaders/sm_alpha_smoke.shader
-- Assets/VFX/BM Effects/Materials/MuzzleAnm.mat
-- Assets/VFX/BM Effects/Shaders/bm_distbom.shader
-- Assets/VFX/BM Effects/unitychan_prfb.prefab
-- Assets/VFX/BM Effects/Shaders/sm_alpha.shader
-- Assets/VFX/BM Effects/Materials/WaterBase.mat
-- Assets/VFX/BM Effects/Shaders/sm_add_thunder.shader
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleRail_Medium.prefab
-- Assets/VFX/BM Effects/Materials/SmokeExpl.mat
-- Assets/VFX/BM Effects/VFX/Laser/PacEffect.prefab
-- Assets/VFX/BM Effects/lens dirt/LensDirt01.png
-- Assets/VFX/BM Effects/bm_godray/BM_GodRayMat.mat
-- Assets/VFX/BM Effects/Shaders/sm_add_shockwave.shader
-- Assets/VFX/BM Effects/VFX/Laser/SingleThunder.prefab
-- Assets/VFX/BM Effects/Materials/flashShine Dark.mat
-- Assets/VFX/BM Effects/Mat2/sub.mat
-- Assets/VFX/BM Effects/Materials/EMPTY.mat
-- "Assets/VFX/BM Effects/Mat2/16.\u6B66\u5668\u9ED2.mat"
-- Assets/VFX/BM Effects/Texture/ShockWave.png
-- Assets/VFX/BM Effects/missile/SmokeBody_NoFire.prefab
-- Assets/VFX/BM Effects/Mat2/joint.mat
-- Assets/VFX/BM Effects/Texture/BeamGradient.exr
-- Assets/VFX/BM Effects/Materials/MissileFlash.mat
-- Assets/VFX/BM Effects/ocean/oceantex/noise.png
-- Assets/VFX/BM Effects/Texture/BeamHead.png
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Bigger.prefab
-- Assets/VFX/BM Effects/Shaders/sm_inv.shader
-- Assets/VFX/BM Effects/VFX/Laser/Laser_Cont Plain.prefab
-- Assets/VFX/BM Effects/Materials/NormalParticle_Alpha.mat
-- Assets/VFX/BM Effects/Texture/HDRGradient.exr
-- Assets/VFX/BM Effects/VFX/Muzzle/MuzzleFlash_Biggest.prefab
-- Assets/VFX/BM Effects/Mat2/main4.mat
-- Assets/VFX/BM Effects/Shaders/flashShine Light.shadergraph
-- Assets/VFX/BM Effects/Shaders/laserBeam.shadergraph
-- Assets/VFX/BM Effects/Shaders/flashShine Dark.shadergraph
-- "Assets/VFX/BM Effects/Mat2/10.\u9ED2.mat"
-- Assets/VFX/BM Effects/Materials/flashGlare.mat
-- Assets/VFX/BM Effects/Materials/OceanMat.mat
-- Assets/VFX/BM Effects/Shaders/sm_alpha_normal.shader
-- Assets/VFX/BM Effects/Materials/flashShine.mat
-- Assets/VFX/BM Effects/Materials/ThunderLine 1.mat
-- Assets/VFX/BM Effects/bm_godray/bm_godrayshader.shader
-- Assets/VFX/BM Effects/Mat2/bst.mat
-- Assets/VFX/BM Effects/Mat2/wepmain.mat
-- Assets/VFX/BM Effects/Materials/flashShine Light.mat
-- Assets/VFX/BM Effects/Mat2/c1.mat
-- Assets/VFX/BM Effects/Materials/FireLoop 1.mat
-- Assets/VFX/BM Effects/Materials/BigThunder.mat
-- Assets/VFX/BM Effects/Materials/PacSecon.mat
-- Assets/VFX/BM Effects/VFX/Laser/PulseLaser.prefab
-- Assets/VFX/BM Effects/Shaders/pulseCore Light.shadergraph
-- Assets/VFX/BM Effects/Texture/ThunderLine.png
-- Assets/VFX/BM Effects/VFX/Explosions/Expl_Huge.prefab
-- Assets/VFX/BM Effects/Texture/Core.exr
-- Assets/VFX/BM Effects/Materials/BlackSmoke.mat
-- Assets/VFX/BM Effects/Texture/BeamMain.png
-- Assets/VFX/BM Effects/Shaders/flashGlare.shadergraph
-- Assets/VFX/BM Effects/Materials/FireParticle.mat
-- Assets/VFX/BM Effects/SFX/pulse_laser.wav
-- Assets/VFX/BM Effects/VFX/Laser/WaveLaser_Gravity.prefab
-- Assets/VFX/BM Effects/VFX/Splash/LargeSplash_Pure.prefab
-- Assets/VFX/BM Effects/Materials/MissileSmoke.mat
-- Assets/VFX/BM Effects/Texture/Ice.png
-- Assets/VFX/BM Effects/VFX/Explosions/Expl_Tiny.prefab
+- Assets/Assets/BM Effects/Mat2/T2.mat
+- Assets/Assets/BM Effects/Shaders/laserCore Dark.shadergraph
+- Assets/Assets/BM Effects/Shaders/laserSpark.shadergraph
+- Assets/Assets/BM Effects/Shaders/bm_shield.shader
+- Assets/Assets/BM Effects/VFX/Splash/Splash.prefab
+- Assets/Assets/BM Effects/Materials/LaserBase.mat
+- Assets/Assets/BM Effects/Texture/Particle.png
+- Assets/Assets/BM Effects/Texture/Thunder 1.png
+- Assets/Assets/BM Effects/ocean/oceantex/wave2.png
+- "Assets/Assets/BM Effects/Mat2/\u30A8\u30F3\u30D6\u30EC\u30E0.mat"
+- Assets/Assets/BM Effects/Shaders/bm_godrayshader.shader
+- Assets/Assets/BM Effects/StandardSphere.prefab
+- Assets/Assets/BM Effects/Materials/FireBillboard.mat
+- Assets/Assets/BM Effects/VFX/Explosions/AtomicBom.prefab
+- Assets/Assets/BM Effects/VFX/Explosions/Expl_Big.prefab
+- Assets/Assets/BM Effects/Materials/FireBillboard2.mat
+- Assets/Assets/BM Effects/Materials/pacBeam.mat
+- Assets/Assets/BM Effects/Materials/Fire_UVCut.mat
+- Assets/Assets/BM Effects/Texture/SimpleSmoke_White.png
+- Assets/Assets/BM Effects/Mat2/wepsub.mat
+- Assets/Assets/BM Effects/ocean/NonWaterTex.renderTexture
+- Assets/Assets/BM Effects/Materials/ShotParticle.mat
+- Assets/Assets/BM Effects/Texture/Smoke.png
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Big.prefab
+- Assets/Assets/BM Effects/Materials/pulseCore Light.mat
+- Assets/Assets/BM Effects/VFX/Beam/Wave_SFX_End.prefab
+- Assets/Assets/BM Effects/Shaders/sm_alpha_smoke_missile.shader
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Gigant.prefab
+- Assets/Assets/BM Effects/Mat2/25.ow3.mat
+- Assets/Assets/BM Effects/SFX/wave_laser_end.wav
+- Assets/Assets/BM Effects/StanderdMat.mat
+- Assets/Assets/BM Effects/Materials/FireAnm.mat
+- Assets/Assets/BM Effects/Mat2/a1.mat
+- Assets/Assets/BM Effects/VFX/Beam/PAC_SFX Med.prefab
+- Assets/Assets/BM Effects/Materials/Flash.mat
+- Assets/Assets/BM Effects/Texture/ShotParticle.png
+- Assets/Assets/BM Effects/VFX/Splash/LargeSplash.prefab
+- Assets/Assets/BM Effects/VFX/Splash/HugeSplash.prefab
+- Assets/Assets/BM Effects/Materials/DistBomMat.mat
+- Assets/Assets/BM Effects/SFX/wave_laser_start.wav
+- Assets/Assets/BM Effects/Texture/SmokeNormal.png
+- Assets/Assets/BM Effects/VFX/Beam/Wave_SFX.prefab
+- Assets/Assets/BM Effects/Materials/Flash 1.mat
+- Assets/Assets/BM Effects/Mat2/CP.mat
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleRail_Small.prefab
+- Assets/Assets/BM Effects/Mat2/c3.mat
+- Assets/Assets/BM Effects/Materials/pulseCore Plain.mat
+- Assets/Assets/BM Effects/Texture/Water.png
+- Assets/Assets/BM Effects/Shaders/laserCore Light.shadergraph
+- Assets/Assets/BM Effects/Mat2/wepsub2.mat
+- Assets/Assets/BM Effects/Materials/laserCore Light.mat
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Pulse Light.prefab
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Cont Light.prefab
+- Assets/Assets/BM Effects/SFX/snd_eject_ionrailgun_military.wav
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Huge.prefab
+- Assets/Assets/BM Effects/Texture/Water_black.png
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Medium.prefab
+- Assets/Assets/BM Effects/Shaders/bm_ocean.shader
+- Assets/Assets/BM Effects/Materials/Fire.mat
+- Assets/Assets/BM Effects/Shaders/lightning.shadergraph
+- Assets/Assets/BM Effects/Materials/MissileTorpedo.mat
+- Assets/Assets/BM Effects/Materials/pulseCore Dark.mat
+- Assets/Assets/BM Effects/Texture/honeycomb.png
+- Assets/Assets/BM Effects/Texture/WaterNormal.png
+- Assets/Assets/BM Effects/Shaders/pulseCore Dark.shadergraph
+- Assets/Assets/BM Effects/ocean/NonWaterDep.renderTexture
+- Assets/Assets/BM Effects/Shaders/sm_add_uvscroll2_sh.shader
+- Assets/Assets/BM Effects/VFX/Splash/TrailSplash.prefab
+- Assets/Assets/BM Effects/Texture/noize.png
+- Assets/Assets/BM Effects/SFX/814049__qubodup__ion-cannon.wav
+- Assets/Assets/BM Effects/VFX/Beam/ShockWave.prefab
+- Assets/Assets/BM Effects/Mat2/s1.mat
+- Assets/Assets/BM Effects/Shaders/sm_add.shader
+- Assets/Assets/BM Effects/Materials/Flash_Base.mat
+- Assets/Assets/BM Effects/Texture/SimpleSmokeNormal.png
+- Assets/Assets/BM Effects/Shaders/sm_add_front.shader
+- Assets/Assets/BM Effects/VFX/Splash/SplashBase.prefab
+- Assets/Assets/BM Effects/Materials/MissileSmoke_NoFire.mat
+- Assets/Assets/BM Effects/Texture/Fire_Loop.png
+- Assets/Assets/BM Effects/VFX/Beam/LightChild.prefab
+- Assets/Assets/BM Effects/Texture/Fire.png
+- Assets/Assets/BM Effects/VFX/Beam/PulseHit.prefab
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Cont Plain.prefab
+- Assets/Assets/BM Effects/SFX/pac_med.wav
+- Assets/Assets/BM Effects/Materials/DefaultParticle.mat
+- Assets/Assets/BM Effects/Materials/laserBeam.mat
+- Assets/Assets/BM Effects/Texture/Thunder.png
+- Assets/Assets/BM Effects/Materials/FireLoop_Gravity.mat
+- Assets/Assets/BM Effects/Fire.png
+- Assets/Assets/BM Effects/Texture/ShockWaveRound.png
+- Assets/Assets/BM Effects/Materials/laserCore Dark.mat
+- Assets/Assets/BM Effects/Texture/Fire 1.png
+- Assets/Assets/BM Effects/Texture/Splash.png
+- Assets/Assets/BM Effects/VFX/Explosions/DistShockWave.prefab
+- Assets/Assets/BM Effects/Shaders/pacGlow.shadergraph
+- Assets/Assets/BM Effects/Materials/laserCore.mat
+- Assets/Assets/BM Effects/SFX/wave_laser.wav
+- Assets/Assets/BM Effects/Shaders/normalparticle_alpha.shader
+- Assets/Assets/BM Effects/Texture/Light3.png
+- Assets/Assets/BM Effects/SkyProbe.prefab
+- Assets/Assets/BM Effects/missile/MissileSmoke.prefab
+- Assets/Assets/BM Effects/Shaders/sm_add_uvdist__firebeam.shader
+- Assets/Assets/BM Effects/Shaders/pulseCore Plain.shadergraph
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Tiny.prefab
+- Assets/Assets/BM Effects/lens dirt/LensDirt03.png
+- Assets/Assets/BM Effects/VFX/Explosions/Expl_Medium.prefab
+- Assets/Assets/BM Effects/Shaders/sm_add_uvscroll.shader
+- Assets/Assets/BM Effects/VFX/Explosions/Expl_Small.prefab
+- Assets/Assets/BM Effects/Materials/Lightning.mat
+- Assets/Assets/BM Effects/Shaders/bm_ftdshader.shader
+- Assets/Assets/BM Effects/VFX/Beam/PacFlash.prefab
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleRail_Big.prefab
+- Assets/Assets/BM Effects/Shaders/pacBeam bad.shadergraph
+- Assets/Assets/BM Effects/VFX/Beam/Pulse_SFX.prefab
+- "Assets/Assets/BM Effects/Mat2/\u30B9\u30AF\u30EA\u30FC\u30F3.mat"
+- "Assets/Assets/BM Effects/Mat2/15.\u6B66\u5668\u30B0\u30ED\u30FC.mat"
+- Assets/Assets/BM Effects/Materials/SmokeWhite.mat
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Small.prefab
+- Assets/Assets/BM Effects/Shaders/sm_bigthunder.shader
+- Assets/Assets/BM Effects/VFX/Beam/Wave_SFX_Start.prefab
+- Assets/Assets/BM Effects/SFX/670136__silverillusionist__laser-cannon-type-1.wav
+- Assets/Assets/BM Effects/SFX/pac_big.wav
+- Assets/Assets/BM Effects/lens dirt/LensDirt00.png
+- Assets/Assets/BM Effects/Texture/GWater.png
+- Assets/Assets/BM Effects/Shaders/laserCore.shadergraph
+- Assets/Assets/BM Effects/Texture/SimpleSmoke.png
+- Assets/Assets/BM Effects/Texture/empty.png
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Pulse Plain.prefab
+- Assets/Assets/BM Effects/Materials/Smoke_NoFire.mat
+- Assets/Assets/BM Effects/Materials/ShieldMat.mat
+- Assets/Assets/BM Effects/lens dirt/LensDirt02.png
+- Assets/Assets/BM Effects/Texture/FireAnm.png
+- Assets/Assets/BM Effects/Shaders/flashShine.shadergraph
+- Assets/Assets/BM Effects/Materials/SmokeFire.mat
+- Assets/Assets/BM Effects/Materials/FireWave.mat
+- "Assets/Assets/BM Effects/Mat2/22.OW\u8D64\u71B1\u90E8.mat"
+- Assets/Assets/BM Effects/Texture/SplashNormal.png
+- Assets/Assets/BM Effects/Materials/FireLoop.mat
+- "Assets/Assets/BM Effects/Mat2/6.\u30B0\u30ED\u30FC.mat"
+- Assets/Assets/BM Effects/ocean/NoWaterCamera.prefab
+- Assets/Assets/BM Effects/Materials/BasicWave.mat
+- Assets/Assets/BM Effects/Texture/MuzzleAnm1.png
+- Assets/Assets/BM Effects/ocean/oceantex/wave1.png
+- Assets/Assets/BM Effects/Texture/Flash.png
+- Assets/Assets/BM Effects/Materials/NormalThunder.mat
+- Assets/Assets/BM Effects/VFX/Beam/PacThunder.prefab
+- Assets/Assets/BM Effects/Mat2/c2.mat
+- Assets/Assets/BM Effects/missile/MissileTorpedo.prefab
+- Assets/Assets/BM Effects/Shaders/sm_add_uvdist.shader
+- Assets/Assets/BM Effects/Shaders/pacTester.shadergraph
+- Assets/Assets/BM Effects/Shaders/sm_alpha_smoke.shader
+- Assets/Assets/BM Effects/Materials/MuzzleAnm.mat
+- Assets/Assets/BM Effects/Shaders/bm_distbom.shader
+- Assets/Assets/BM Effects/unitychan_prfb.prefab
+- Assets/Assets/BM Effects/Shaders/sm_alpha.shader
+- Assets/Assets/BM Effects/Shaders/sm_add_thunder.shader
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleRail_Medium.prefab
+- Assets/Assets/BM Effects/Materials/SmokeExpl.mat
+- Assets/Assets/BM Effects/VFX/Beam/PAC_beam.prefab
+- Assets/Assets/BM Effects/lens dirt/LensDirt01.png
+- Assets/Assets/BM Effects/bm_godray/BM_GodRayMat.mat
+- Assets/Assets/BM Effects/Shaders/sm_add_shockwave.shader
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Cont Dark.prefab
+- Assets/Assets/BM Effects/VFX/Beam/SingleThunder.prefab
+- Assets/Assets/BM Effects/Materials/flashShine Dark.mat
+- Assets/Assets/BM Effects/Shaders/pacBeam.shadergraph
+- Assets/Assets/BM Effects/Mat2/sub.mat
+- Assets/Assets/BM Effects/VFX/Beam/PAC_SFX Big.prefab
+- Assets/Assets/BM Effects/Materials/EMPTY.mat
+- "Assets/Assets/BM Effects/Mat2/16.\u6B66\u5668\u9ED2.mat"
+- Assets/Assets/BM Effects/Texture/ShockWave.png
+- Assets/Assets/BM Effects/missile/SmokeBody_NoFire.prefab
+- Assets/Assets/BM Effects/Mat2/joint.mat
+- Assets/Assets/BM Effects/Texture/BeamGradient.exr
+- Assets/Assets/BM Effects/Materials/MissileFlash.mat
+- Assets/Assets/BM Effects/ocean/oceantex/noise.png
+- Assets/Assets/BM Effects/Shaders/sm_inv.shader
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Bigger.prefab
+- Assets/Assets/BM Effects/SFX/742583__headphaze__sci-fi-gunshot-heavy-blast-weapon.wav
+- Assets/Assets/BM Effects/Texture/BeamHead.png
+- Assets/Assets/BM Effects/Materials/NormalParticle_Alpha.mat
+- Assets/Assets/BM Effects/Texture/HDRGradient.exr
+- Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Biggest.prefab
+- Assets/Assets/BM Effects/Mat2/main4.mat
+- Assets/Assets/BM Effects/Shaders/flashShine Light.shadergraph
+- Assets/Assets/BM Effects/Shaders/laserBeam.shadergraph
+- Assets/Assets/BM Effects/Shaders/flashShine Dark.shadergraph
+- "Assets/Assets/BM Effects/Mat2/10.\u9ED2.mat"
+- Assets/Assets/BM Effects/SFX/565449__newlocknew__plasma-cannon-shot_1-23lrsmltprcssng.wav
+- Assets/Assets/BM Effects/Materials/flashGlare.mat
+- Assets/Assets/BM Effects/Materials/flashShine.mat
+- Assets/Assets/BM Effects/Shaders/sm_alpha_normal.shader
+- Assets/Assets/BM Effects/bm_godray/bm_godrayshader.shader
+- Assets/Assets/BM Effects/Materials/pacGlow.mat
+- Assets/Assets/BM Effects/Mat2/bst.mat
+- Assets/Assets/BM Effects/Mat2/wepmain.mat
+- Assets/Assets/BM Effects/Materials/flashShine Light.mat
+- Assets/Assets/BM Effects/VFX/Beam/Laser_Pulse Dark.prefab
+- Assets/Assets/BM Effects/Mat2/c1.mat
+- Assets/Assets/BM Effects/Materials/FireLoop 1.mat
+- Assets/Assets/BM Effects/Materials/BigThunder.mat
+- Assets/Assets/BM Effects/Shaders/pulseCore Light.shadergraph
+- Assets/Assets/BM Effects/VFX/Beam/PulseLaser.prefab
+- Assets/Assets/BM Effects/Texture/ThunderLine.png
+- Assets/Assets/BM Effects/VFX/Explosions/Expl_Huge.prefab
+- Assets/Assets/BM Effects/Texture/BeamMain.png
+- Assets/Assets/BM Effects/Texture/Core.exr
+- Assets/Assets/BM Effects/Materials/BlackSmoke.mat
+- Assets/Assets/BM Effects/Shaders/flashGlare.shadergraph
+- Assets/Assets/BM Effects/Materials/FireParticle.mat
+- Assets/Assets/BM Effects/SFX/pulse_laser.wav
+- Assets/Assets/BM Effects/VFX/Beam/WaveLaser_Gravity.prefab
+- Assets/Assets/BM Effects/VFX/Splash/LargeSplash_Pure.prefab
+- Assets/Assets/BM Effects/Materials/MissileSmoke.mat
+- Assets/Assets/BM Effects/Texture/Ice.png
+- Assets/Assets/BM Effects/VFX/Explosions/Expl_Tiny.prefab
 Dependencies: []

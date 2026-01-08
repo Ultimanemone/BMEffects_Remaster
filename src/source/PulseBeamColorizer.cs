@@ -63,7 +63,7 @@ namespace BMEffects_Remaster
                         var temp = ps.main;
                         temp.startColor = color;
 
-                        ps.transform.localScale = Vector3.one * width * widthMult;
+                        ps.transform.localScale = Vector3.one * Mathf.Max(width, 0.5f) * widthMult;
                     }
                 }
             }
