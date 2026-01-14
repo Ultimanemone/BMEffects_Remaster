@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Effects">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Effects.dll</HintPath>
+    </Reference>
+    <Reference Include="Environments">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Ftd">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Ftd.dll</HintPath>
+    </Reference>
+    <Reference Include="Modding">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Modding.dll</HintPath>
+    </Reference>
+    <Reference Include="MTMT_VFXCore">
+      <HintPath>..\..\MTMT VFX Core\MTMT_VFXCore.dll</HintPath>
+    </Reference>
+    <Reference Include="NetInfrastructure">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\NetInfrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Steamworks">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Steamworks.dll</HintPath>
+    </Reference>
+    <Reference Include="Ui">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Ui.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(SolutionDir)..\$(TargetName).dll&quot;&#xD;&#xA;copy &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(SolutionDir)..\$(TargetName).pdb&quot;" />
+  </Target>
+
+</Project>
