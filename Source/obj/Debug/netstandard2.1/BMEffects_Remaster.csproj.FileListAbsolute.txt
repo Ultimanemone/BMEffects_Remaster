@@ -550,3 +550,31 @@ D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.so
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.CopyComplete
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.dll
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.pdb
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.AssemblyReference.cache
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.AssemblyInfoInputs.cache
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.AssemblyInfo.cs
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.CoreCompileInputs.cache
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.sourcelink.json
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.pdb
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\BMEffects_Remaster.deps.json
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\BMEffects_Remaster.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\BMEffects_Remaster.pdb
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Core.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Effects.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Environments.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Ftd.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Modding.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\MTMT_VFXCore.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\NetInfrastructure.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Newtonsoft.Json.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Steamworks.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\Ui.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\MTMT_VFXCore.pdb
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffect.40972329.Up2Date

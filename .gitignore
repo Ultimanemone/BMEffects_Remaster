@@ -30,6 +30,4 @@ Thumbs.db
 # Others #
 ##########
 *.cache
-MTMT VFX Unity/
-releases/
-AudioClip/
+Source/Dll/

@@ -14,7 +14,7 @@ namespace BMEffects_Remaster
     {
         private static void Prefix(LaserPulseSpecification spec, GameObject obj)
         {
-            if (!Util.E_PULSE) return;
+            if (!Config.E_PULSE) return;
 
             obj.GetComponent<PulseBeamColorizer>()?.Fire(spec.Color, spec.StartPosition, spec.EndPosition, spec.StartingWidth);
         }
@@ -25,7 +25,7 @@ namespace BMEffects_Remaster
     {
         private static bool Prefix(ConventionalLaser __instance)
         {
-            if (!Util.E_PULSE) return true;
+            if (!Config.E_PULSE) return true;
 
             if (AssetRegistryPatch.pulse == null) return true;
             BMEUtils.PlaySound(AssetRegistryPatch.pulse, __instance.GameWorldPosition, 0.6f, 0.9f, 1.1f);
@@ -40,7 +40,7 @@ namespace BMEffects_Remaster
     {
         private static void Prefix(Vector3 start, Vector3 end, Vector3 direction, float width, Color color, GameObject obj)
         {
-            if (!Util.E_CONTINUOUS) return;
+            if (!Config.E_CONTINUOUS) return;
 
             ContinuousBeamColorizer colorizer = obj.GetComponent<ContinuousBeamColorizer>();
             colorizer.Fire(color, start, end, direction, width);
@@ -52,7 +52,7 @@ namespace BMEffects_Remaster
     {
         private static void Prefix(SpecialSound __instance)
         {
-            if (!Util.E_CONTINUOUS) return;
+            if (!Config.E_CONTINUOUS) return;
 
             if (AssetRegistryPatch.wave != null && __instance is LaserSound)
             {

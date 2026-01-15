@@ -1,7 +1,5 @@
 ﻿using BrilliantSkies.Core.Timing;
 using BrilliantSkies.Modding;
-using BrilliantSkies.Ui.Displayer;
-using BrilliantSkies.Ui.Displayer.Types;
 using MTMTVFX.Core;
 using Newtonsoft.Json.Linq;
 using Steamworks;

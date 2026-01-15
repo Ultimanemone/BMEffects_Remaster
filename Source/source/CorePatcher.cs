@@ -52,7 +52,7 @@ namespace BMEffects_Remaster
 
                 Dictionary<string, GameObject> assetDict = AssetLoader.GetAllAssets(new Guid(ModInfo.AssetbundleGUID));
 
-                if (Util.E_PULSE)
+                if (Config.E_PULSE)
                 {
                     pulse = BMEUtils.MakeClipDefinition(assetDict["pulse_sfx"].GetComponent<AudioSource>().clip);
 
@@ -61,7 +61,7 @@ namespace BMEffects_Remaster
                     else assetDict["laser_pulse"] = assetDict["laser_pulse light"];
                 }
 
-                if (Util.E_CONTINUOUS)
+                if (Config.E_CONTINUOUS)
                 {
                     wave_start = BMEUtils.MakeClipDefinition(assetDict["wave_sfx_start"].GetComponent<AudioSource>().clip);
                     wave_end = BMEUtils.MakeClipDefinition(assetDict["wave_sfx_end"].GetComponent<AudioSource>().clip);
@@ -72,7 +72,7 @@ namespace BMEffects_Remaster
                     else assetDict["laser_cont"] = assetDict["laser_cont light"];
                 }
 
-                if (Util.E_PAC)
+                if (Config.E_PAC)
                 {
                     pac_med = BMEUtils.MakeClipDefinition(assetDict["pac_sfx med"].GetComponent<AudioSource>().clip);
                     pac_big= BMEUtils.MakeClipDefinition(assetDict["pac_sfx big"].GetComponent<AudioSource>().clip);

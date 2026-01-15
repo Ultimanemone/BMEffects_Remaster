@@ -25,7 +25,7 @@
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Modding.dll</HintPath>
     </Reference>
     <Reference Include="MTMT_VFXCore">
-      <HintPath>..\..\MTMT VFX Core\MTMT_VFXCore.dll</HintPath>
+      <HintPath>..\..\MTMTVFXCore\MTMT_VFXCore.dll</HintPath>
     </Reference>
     <Reference Include="NetInfrastructure">
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\NetInfrastructure.dll</HintPath>
@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(SolutionDir)..\$(TargetName).dll&quot;&#xD;&#xA;copy &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(SolutionDir)..\$(TargetName).pdb&quot;&#xD;&#xA;&#xD;&#xA;REM Normalize paths&#xD;&#xA;for %25%25I in (&quot;%25SourceDir%25&quot;) do set SourceDirNorm=%25%25~fI&#xD;&#xA;for %25%25I in (&quot;%25ModDir%25&quot;) do set ModDirNorm=%25%25~fI&#xD;&#xA;&#xD;&#xA;set SourceDir=$(SolutionDir)..&#xD;&#xA;set ModDir=%25USERPROFILE%25\Documents\From The Depths\Mods\BMEffectsRemaster&#xD;&#xA;&#xD;&#xA;REM Resolve both paths to absolute form&#xD;&#xA;for %25%25A in (&quot;%25SourceDir%25&quot;) do set &quot;SourceDir=%25%25~fA&quot;&#xD;&#xA;for %25%25A in (&quot;%25ModDir%25&quot;) do set &quot;ModDir=%25%25~fA&quot;&#xD;&#xA;&#xD;&#xA;REM Compare (case-insensitive)&#xD;&#xA;if /I &quot;%25SourceDir%25&quot;==&quot;%25ModDir%25&quot; (&#xD;&#xA;    echo SourceDir and ModDir are the same. Skipping folder copy.&#xD;&#xA;    goto :EOF&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;if exist &quot;%25ModDir%25&quot; rmdir /S /Q &quot;%25ModDir%25&quot;&#xD;&#xA;&#xD;&#xA;robocopy &quot;%25SourceDir%25&quot; &quot;%25ModDir%25&quot; /E ^&#xD;&#xA;  /XD &quot;.git&quot; &quot;releases&quot; &quot;bin&quot; &quot;obj&quot; ^&#xD;&#xA;  /XF &quot;*.gitattributes&quot; &quot;*.gitignore&quot; || exit /b 0" />
+    <Exec Command="copy &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(SolutionDir)..\$(TargetName).dll&quot;&#xD;&#xA;copy &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(SolutionDir)..\$(TargetName).pdb&quot;&#xD;&#xA;&#xD;&#xA;REM Normalize paths&#xD;&#xA;for %25%25I in (&quot;%25SourceDir%25&quot;) do set SourceDirNorm=%25%25~fI&#xD;&#xA;for %25%25I in (&quot;%25ModDir%25&quot;) do set ModDirNorm=%25%25~fI&#xD;&#xA;&#xD;&#xA;set SourceDir=$(SolutionDir)..&#xD;&#xA;set ModDir=%25USERPROFILE%25\Documents\From The Depths\Mods\BMEffectsRemaster&#xD;&#xA;&#xD;&#xA;REM Resolve both paths to absolute form&#xD;&#xA;for %25%25A in (&quot;%25SourceDir%25&quot;) do set &quot;SourceDir=%25%25~fA&quot;&#xD;&#xA;for %25%25A in (&quot;%25ModDir%25&quot;) do set &quot;ModDir=%25%25~fA&quot;&#xD;&#xA;&#xD;&#xA;REM Compare (case-insensitive)&#xD;&#xA;if /I &quot;%25SourceDir%25&quot;==&quot;%25ModDir%25&quot; (&#xD;&#xA;    echo SourceDir and ModDir are the same. Skipping folder copy.&#xD;&#xA;    goto :EOF&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;if exist &quot;%25ModDir%25&quot; rmdir /S /Q &quot;%25ModDir%25&quot;&#xD;&#xA;&#xD;&#xA;robocopy &quot;%25SourceDir%25&quot; &quot;%25ModDir%25&quot; /E ^&#xD;&#xA;  /XD &quot;.git&quot; &quot;releases&quot; &quot;bin&quot; &quot;obj&quot; &quot;Dll&quot; ^&#xD;&#xA;  /XF &quot;*.gitattributes&quot; &quot;*.gitignore&quot; || exit /b 0" />
   </Target>
 
 </Project>
