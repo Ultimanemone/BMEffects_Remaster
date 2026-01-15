@@ -159,12 +159,13 @@ namespace BMEffects_Remaster
                 ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             }
 
-            Color c;
-            if (color.maxColorComponent >= 0.5f) c = Color.black;
-            else c = Color.white;
-            //if (Constants.mode == Mode.Light) c = Color.white;
-            //else if (Constants.mode == Mode.Dark) c = Color.black;
-            //else c = color;
+            Color c = color;
+            if (lifetime > 3f)
+            {
+                if (color.maxColorComponent >= 0.5f) c = Color.black;
+                else c = Color.white;
+            }
+
             GradientAlphaKey[] gakList = {
                 new GradientAlphaKey(1f, 0f),
                 new GradientAlphaKey(1f, 1f)
