@@ -109,17 +109,22 @@ namespace BMEffects_Remaster
                         }
                     }
                 }
-                else if ((SpecialName)type == SpecialName.laser_cont)
+                else if (type.GetType() == typeof(SpecialName) && (SpecialName)type == SpecialName.laser_cont)
                 {
+                    Util.LogError<AddScriptPatch>($"{type} - {obj.name}");
                     if (obj.GetComponent<ContinuousBeamColorizer>() == null) obj.AddComponent<ContinuousBeamColorizer>();
                 }
-                else if ((BeamName)type == BeamName.laser_pulse)
+                else if (type.GetType() == typeof(BeamName))
                 {
-                    if (obj.GetComponent<PulseBeamColorizer>() == null) obj.AddComponent<PulseBeamColorizer>();
-                }
-                else if ((BeamName)type == BeamName.pac_beam)
-                {
-                    if (obj.GetComponent<PacBeamer>() == null) obj.AddComponent<PacBeamer>();
+                    if ((BeamName)type == BeamName.laser_pulse)
+                    {
+                        Util.LogError<AddScriptPatch>($"{type} - {obj.name}");
+                        if (obj.GetComponent<PulseBeamColorizer>() == null) obj.AddComponent<PulseBeamColorizer>();
+                    }
+                    else if ((BeamName)type == BeamName.pac_beam)
+                    {
+                        if (obj.GetComponent<PacBeamer>() == null) obj.AddComponent<PacBeamer>();
+                    }
                 }
             }
         }

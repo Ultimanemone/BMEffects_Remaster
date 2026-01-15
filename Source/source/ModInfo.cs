@@ -2,6 +2,7 @@
 using BrilliantSkies.Modding;
 using BrilliantSkies.Ui.Displayer;
 using BrilliantSkies.Ui.Displayer.Types;
+using MTMTVFX.Core;
 using Newtonsoft.Json.Linq;
 using Steamworks;
 using System.IO;
@@ -102,9 +103,12 @@ namespace BMEffects_Remaster
 
         private static void Callback(SteamUGCRequestUGCDetailsResult_t param, bool bIOFailure)
         {
+            Util.LogInfo<CorePlugin>("flag1");
             GameEvents.Twice_Second.UnregWithEvent(SteamUGCRequest);
+            Util.LogInfo<CorePlugin>("flag2");
 
             string description = param.m_details.m_rgchDescription;
+            Util.LogInfo<CorePlugin>("flag3");
 
             if (!string.IsNullOrEmpty(description))
             {
@@ -116,14 +120,17 @@ namespace BMEffects_Remaster
                 {
                     if (inputLine.StartsWith("Latest version "))
                     {
-                        latestVersion = System.Version.Parse(inputLine.Remove(0, 18));
+                        latestVersion = System.Version.Parse(inputLine.Remove(0, 15));
+                        Util.LogInfo<CorePlugin>(description);
+                        Util.LogInfo<CorePlugin>(latestVersion.ToString());
+                        Util.LogInfo<CorePlugin>(_version.ToString());
                         break;
                     }
                 }
 
                 if (latestVersion != null && _version.CompareTo(latestVersion) == -1)
                 {
-                    ModProblemOverwrite(ModName, ModPath + "UpdateText", "New version released! v" + latestVersion, false);
+                    ModProblemOverwrite(ModName, ModPath, "New version released! v" + latestVersion, false);
                 }
             }
         }

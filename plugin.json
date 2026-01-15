@@ -5,5 +5,6 @@
   "gameversion": "4.2.8",
   "depends": ["MTMT VFX Core"],
   "conflicts": [],
-  "filename": "0Harmony.dll,BMEffects_Remaster.dll"
+  "filename": "0Harmony.dll,BMEffects_Remaster.dll",
+  "workshop_id": "3646228592"
 }

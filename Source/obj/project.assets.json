@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\Source\\BMEffects_Remaster.csproj",
+      "projectUniqueName": "D:\\MTMT\\BMEffects_Remaster\\Source\\BMEffects_Remaster.csproj",
       "projectName": "BMEffects_Remaster",
-      "projectPath": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\Source\\BMEffects_Remaster.csproj",
+      "projectPath": "D:\\MTMT\\BMEffects_Remaster\\Source\\BMEffects_Remaster.csproj",
       "packagesPath": "C:\\Users\\NoOne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NoOne\\Documents\\From The Depths\\Mods\\BMEffects_Remaster\\Source\\obj\\",
+      "outputPath": "D:\\MTMT\\BMEffects_Remaster\\Source\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
