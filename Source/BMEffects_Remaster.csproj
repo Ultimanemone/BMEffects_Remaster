@@ -25,13 +25,16 @@
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Modding.dll</HintPath>
     </Reference>
     <Reference Include="MTMT_VFXCore">
-      <HintPath>..\..\MTMTVFXCore\MTMT_VFXCore.dll</HintPath>
+      <HintPath>C:\Users\NoOne\Documents\From The Depths\Mods\MTMTVFXCore\MTMT_VFXCore.dll</HintPath>
     </Reference>
     <Reference Include="NetInfrastructure">
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\NetInfrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayerProfiles">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\PlayerProfiles.dll</HintPath>
     </Reference>
     <Reference Include="Steamworks">
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Steamworks.dll</HintPath>

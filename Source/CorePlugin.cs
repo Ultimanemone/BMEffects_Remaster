@@ -1,9 +1,6 @@
 ﻿using BrilliantSkies.Modding;
 using HarmonyLib;
-using Newtonsoft.Json.Linq;
 using System;
-using System.IO;
-using System.Reflection;
 
 namespace BMEffects_Remaster
 {

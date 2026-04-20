@@ -1,10 +1,7 @@
-﻿using BrilliantSkies.Effects.Pools.Lasers;
-using BrilliantSkies.Effects.SoundSystem;
-using BrilliantSkies.Effects.SpecialSounds;
+﻿using BrilliantSkies.Effects.SoundSystem;
 using BrilliantSkies.Modding.Types;
 using HarmonyLib;
 using MTMTVFX.Core;
-using MTMTVFX.Effects;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -12,7 +9,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-using static BrilliantSkies.Ftd.Avatar.Build.TurretIssueDisplayPacket;
 
 namespace BMEffects_Remaster
 {
@@ -52,43 +48,37 @@ namespace BMEffects_Remaster
 
                 Dictionary<string, GameObject> assetDict = AssetLoader.GetAllAssets(new Guid(ModInfo.AssetbundleGUID));
 
-                if (Config.E_PULSE)
-                {
-                    pulse = BMEUtils.MakeClipDefinition(assetDict["pulse_sfx"].GetComponent<AudioSource>().clip);
+                // pulse
+                pulse = BMEUtilss.MakeClipDefinition(assetDict["pulse_sfx"].GetComponent<AudioSource>().clip);
 
-                    if (Constants.mode == Mode.Plain) assetDict["laser_pulse"] = assetDict["laser_pulse plain"];
-                    else if (Constants.mode == Mode.Dark) assetDict["laser_pulse"] = assetDict["laser_pulse dark"];
-                    else assetDict["laser_pulse"] = assetDict["laser_pulse light"];
-                }
+                if (Constants.mode == Mode.Plain) assetDict["laser_pulse"] = assetDict["laser_pulse plain"];
+                else if (Constants.mode == Mode.Dark) assetDict["laser_pulse"] = assetDict["laser_pulse dark"];
+                else assetDict["laser_pulse"] = assetDict["laser_pulse light"];
 
-                if (Config.E_CONTINUOUS)
-                {
-                    wave_start = BMEUtils.MakeClipDefinition(assetDict["wave_sfx_start"].GetComponent<AudioSource>().clip);
-                    wave_end = BMEUtils.MakeClipDefinition(assetDict["wave_sfx_end"].GetComponent<AudioSource>().clip);
-                    wave = BMEUtils.MakeClipDefinition(assetDict["wave_sfx"].GetComponent<AudioSource>().clip);
+                // cont
+                wave_start = BMEUtilss.MakeClipDefinition(assetDict["wave_sfx_start"].GetComponent<AudioSource>().clip);
+                wave_end = BMEUtilss.MakeClipDefinition(assetDict["wave_sfx_end"].GetComponent<AudioSource>().clip);
+                wave = BMEUtilss.MakeClipDefinition(assetDict["wave_sfx"].GetComponent<AudioSource>().clip);
 
-                    if (Constants.mode == Mode.Plain) assetDict["laser_cont"] = assetDict["laser_cont plain"];
-                    else if (Constants.mode == Mode.Dark) assetDict["laser_cont"] = assetDict["laser_cont dark"];
-                    else assetDict["laser_cont"] = assetDict["laser_cont light"];
-                }
+                if (Constants.mode == Mode.Plain) assetDict["laser_cont"] = assetDict["laser_cont plain"];
+                else if (Constants.mode == Mode.Dark) assetDict["laser_cont"] = assetDict["laser_cont dark"];
+                else assetDict["laser_cont"] = assetDict["laser_cont light"];
 
-                if (Config.E_PAC)
-                {
-                    pac_med = BMEUtils.MakeClipDefinition(assetDict["pac_sfx med"].GetComponent<AudioSource>().clip);
-                    pac_big= BMEUtils.MakeClipDefinition(assetDict["pac_sfx big"].GetComponent<AudioSource>().clip);
-                }
+                // pac
+                pac_med = BMEUtilss.MakeClipDefinition(assetDict["pac_sfx med"].GetComponent<AudioSource>().clip);
+                pac_big = BMEUtilss.MakeClipDefinition(assetDict["pac_sfx big"].GetComponent<AudioSource>().clip);
 
                 AssetRegistry.Register(assetDict, 1, "BMEffects_Remaster");
             }
             catch (Exception e)
             {
-                Util.LogError<AssetRegistryPatch>(e.Message);
-                Util.LogError<AssetRegistryPatch>(e.Message, BrilliantSkies.Core.Logger.LogOptions.PopupDev);
+                Utils.LogError<AssetRegistryPatch>(e.Message);
+                Utils.LogError<AssetRegistryPatch>(e.Message, BrilliantSkies.Core.Logger.LogOptions.PopupDev);
             }
         }
     }
 
-    [HarmonyPatch(typeof(Util), "AddScript")]
+    [HarmonyPatch(typeof(Utils), "AddScript")]
     public class AddScriptPatch
     {
         private static void Prefix(GameObject obj, Enum type, string modName)
@@ -111,14 +101,14 @@ namespace BMEffects_Remaster
                 }
                 else if (type.GetType() == typeof(SpecialName) && (SpecialName)type == SpecialName.laser_cont)
                 {
-                    Util.LogError<AddScriptPatch>($"{type} - {obj.name}");
+                    Utils.LogError<AddScriptPatch>($"{type} - {obj.name}");
                     if (obj.GetComponent<ContinuousBeamColorizer>() == null) obj.AddComponent<ContinuousBeamColorizer>();
                 }
                 else if (type.GetType() == typeof(BeamName))
                 {
                     if ((BeamName)type == BeamName.laser_pulse)
                     {
-                        Util.LogError<AddScriptPatch>($"{type} - {obj.name}");
+                        Utils.LogError<AddScriptPatch>($"{type} - {obj.name}");
                         if (obj.GetComponent<PulseBeamColorizer>() == null) obj.AddComponent<PulseBeamColorizer>();
                     }
                     else if ((BeamName)type == BeamName.pac_beam)
@@ -129,7 +119,7 @@ namespace BMEffects_Remaster
             }
         }
     }
-    public class BMEUtils
+    public class BMEUtilss
     {
         private static AnimationCurve _dissolveCurve;
         public static AnimationCurve dissolveCurve

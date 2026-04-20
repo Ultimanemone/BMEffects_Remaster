@@ -4,6 +4,7 @@ using MTMTVFX.Core;
 using Newtonsoft.Json.Linq;
 using Steamworks;
 using System.IO;
+using System;
 using System.Reflection;
 
 namespace BMEffects_Remaster
@@ -44,12 +45,21 @@ namespace BMEffects_Remaster
 
         private static void Init()
         {
-            _path = Assembly.GetExecutingAssembly().Location;
-            string modFolder = Path.Combine(Path.GetDirectoryName(ModPath), "Asset Bundles");
-            string[] files = Directory.GetFiles(modFolder, "bmeffects_*.assetbundle");
-            string json = File.ReadAllText(files[0]);
-            JObject obj = JObject.Parse(json);
-            _guid = (string)obj["ComponentId"]["Guid"];
+            try
+            {
+                _path = Assembly.GetExecutingAssembly().Location;
+                string modFolder = Path.Combine(Path.GetDirectoryName(ModPath), "Asset Bundles");
+                string[] files;
+                files = Directory.GetFiles(modFolder, "bmeffects_*.assetBundle");
+                if (files.Length < 1) files = Directory.GetFiles(modFolder, "bmeffects*"); //nuclear option
+                string json = File.ReadAllText(files[0]);
+                JObject obj = JObject.Parse(json);
+                _guid = (string)obj["ComponentId"]["Guid"];
+            }
+            catch (Exception e)
+            {
+                Utils.LogError<CorePlugin>(e.Message, BrilliantSkies.Core.Logger.LogOptions.PopupDev);
+            }
         }
 
         public static void CheckVersion()
@@ -101,12 +111,12 @@ namespace BMEffects_Remaster
 
         private static void Callback(SteamUGCRequestUGCDetailsResult_t param, bool bIOFailure)
         {
-            Util.LogInfo<CorePlugin>("flag1");
+            Utils.LogInfo<CorePlugin>("flag1");
             GameEvents.Twice_Second.UnregWithEvent(SteamUGCRequest);
-            Util.LogInfo<CorePlugin>("flag2");
+            Utils.LogInfo<CorePlugin>("flag2");
 
             string description = param.m_details.m_rgchDescription;
-            Util.LogInfo<CorePlugin>("flag3");
+            Utils.LogInfo<CorePlugin>("flag3");
 
             if (!string.IsNullOrEmpty(description))
             {
@@ -119,9 +129,9 @@ namespace BMEffects_Remaster
                     if (inputLine.StartsWith("Latest version "))
                     {
                         latestVersion = System.Version.Parse(inputLine.Remove(0, 15));
-                        Util.LogInfo<CorePlugin>(description);
-                        Util.LogInfo<CorePlugin>(latestVersion.ToString());
-                        Util.LogInfo<CorePlugin>(_version.ToString());
+                        Utils.LogInfo<CorePlugin>(description);
+                        Utils.LogInfo<CorePlugin>(latestVersion.ToString());
+                        Utils.LogInfo<CorePlugin>(_version.ToString());
                         break;
                     }
                 }

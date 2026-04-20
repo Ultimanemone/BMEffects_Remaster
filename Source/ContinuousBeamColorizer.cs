@@ -56,7 +56,7 @@ namespace BMEffects_Remaster
 
             if (_counter == 0f && _started)
             {
-                BMEUtils.PlaySound(AssetRegistryPatch.wave_end, transform.position, 1.5f);
+                BMEUtilss.PlaySound(AssetRegistryPatch.wave_end, transform.position, 1.5f);
                 _started = false;
             }
         }
@@ -65,7 +65,7 @@ namespace BMEffects_Remaster
         {
             if (_counter == 0f)
             {
-                BMEUtils.PlaySound(AssetRegistryPatch.wave_start, start, 1.5f);
+                BMEUtilss.PlaySound(AssetRegistryPatch.wave_start, start, 1.5f);
                 _starter?.Play();
                 _started = true;
             }

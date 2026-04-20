@@ -1,11 +1,7 @@
-﻿using BrilliantSkies.Modding;
-using MTMTVFX.Internal;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 namespace BMEffects_Remaster
 {
@@ -66,7 +62,7 @@ namespace BMEffects_Remaster
             counter = Mathf.Max(0, counter - Time.deltaTime);
             float t = 1 - counter / lifetime;
 
-            mpb.SetFloat("_Dissolve", BMEUtils.dissolveCurve.Evaluate(t));
+            mpb.SetFloat("_Dissolve", BMEUtilss.dissolveCurve.Evaluate(t));
             beam.SetPropertyBlock(mpb);
             beam.widthMultiplier = widthCurve.Evaluate(t) * width;
             Color c1 = beamGradient.Evaluate(t);
@@ -97,10 +93,10 @@ namespace BMEffects_Remaster
                     mult = Mathf.Pow(damage / 240f, 0.405f);
                     break;
                 case ParticleType.Explosive:
-                    mult = Mathf.Pow(damage / 525, 0.405f);
+                    mult = Mathf.Pow(damage / 525f, 0.405f);
                     break;
             }
-            lifetime = Mathf.Clamp(mult, 0.5f, 6f);
+            lifetime = Mathf.Clamp(mult, 0.5f, 12f);
             counter = lifetime;
             width = Mathf.Min(20f, lifetime * 10f);
             glowWidth = width / 2f;
@@ -160,7 +156,7 @@ namespace BMEffects_Remaster
             }
 
             Color c = color;
-            if (lifetime > 3f)
+            if (lifetime > 6f)
             {
                 if (color.maxColorComponent >= 0.5f) c = Color.black;
                 else c = Color.white;

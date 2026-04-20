@@ -547,7 +547,6 @@ D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.As
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.AssemblyInfo.cs
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.CoreCompileInputs.cache
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.sourcelink.json
-D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.CopyComplete
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.dll
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.pdb
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffects_Remaster.csproj.AssemblyReference.cache
@@ -578,3 +577,4 @@ C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\MTMT_VFXCore.pdb
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffect.40972329.Up2Date
+D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffect.40972329.Up2Date

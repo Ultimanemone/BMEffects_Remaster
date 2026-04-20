@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\",
+  "WorkspaceRootPath": "D:\\MTMT\\BMEffects_Remaster\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\pulsebeamcolorizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\pulsebeamcolorizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|c:\\users\\lotte\\documents\\from the depths\\mods\\bmeffectsremaster\\source\\source\\coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:source\\coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,79 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PacBeamer.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\PacBeamer.cs",
-              "RelativeDocumentMoniker": "source\\PacBeamer.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\PacBeamer.cs",
-              "RelativeToolTip": "source\\PacBeamer.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAuwLMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:41.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PulseBeamColorizer.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\PulseBeamColorizer.cs",
-              "RelativeDocumentMoniker": "source\\PulseBeamColorizer.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\PulseBeamColorizer.cs",
-              "RelativeToolTip": "source\\PulseBeamColorizer.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAhwDgAAAAMAAAA",
+              "Title": "PacBeamer.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\PacBeamer.cs",
+              "RelativeDocumentMoniker": "PacBeamer.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\PacBeamer.cs",
+              "RelativeToolTip": "PacBeamer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:42.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FXPatcher.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\FXPatcher.cs",
-              "RelativeDocumentMoniker": "source\\FXPatcher.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\FXPatcher.cs",
-              "RelativeToolTip": "source\\FXPatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:42.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T09:36:33.693Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CorePatcher.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\CorePatcher.cs",
-              "RelativeDocumentMoniker": "source\\CorePatcher.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\CorePatcher.cs",
-              "RelativeToolTip": "source\\CorePatcher.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAiwFEAAAANAAAAAAAAAA==",
+              "Title": "CorePlugin.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePlugin.cs",
+              "RelativeDocumentMoniker": "CorePlugin.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePlugin.cs",
+              "RelativeToolTip": "CorePlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:42.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T09:36:19.131Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModInfo.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\ModInfo.cs",
-              "RelativeDocumentMoniker": "source\\ModInfo.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\ModInfo.cs",
-              "RelativeToolTip": "source\\ModInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Title": "FXPatcher.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\FXPatcher.cs",
+              "RelativeDocumentMoniker": "FXPatcher.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\FXPatcher.cs",
+              "RelativeToolTip": "FXPatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:42.399Z",
+              "WhenOpened": "2026-04-19T09:15:38.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CorePlugin.cs",
-              "DocumentMoniker": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\CorePlugin.cs",
-              "RelativeDocumentMoniker": "source\\CorePlugin.cs",
-              "ToolTip": "C:\\Users\\LOTTE\\Documents\\From The Depths\\Mods\\BMEffectsRemaster\\Source\\source\\CorePlugin.cs",
-              "RelativeToolTip": "source\\CorePlugin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "CorePatcher.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
+              "RelativeDocumentMoniker": "CorePatcher.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
+              "RelativeToolTip": "CorePatcher.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAiwEcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:03:42.401Z"
+              "WhenOpened": "2026-04-19T09:14:30.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModInfo.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\ModInfo.cs",
+              "RelativeDocumentMoniker": "ModInfo.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\ModInfo.cs",
+              "RelativeToolTip": "ModInfo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowHYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:20:05.757Z"
             }
           ]
         }
