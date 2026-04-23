@@ -1,29 +1,15 @@
 ﻿using BrilliantSkies.Effects.SoundSystem;
 using BrilliantSkies.Modding.Types;
+using BrilliantSkies.PlayerProfiles;
 using HarmonyLib;
 using MTMTVFX.Core;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 using UnityEngine;
 
 namespace BMEffects_Remaster
 {
-    public enum Mode
-    {
-        Light = 0,
-        Dark = 1,
-        Plain = 2
-    }
-
-    public static class Constants
-    {
-        public static Mode mode = Mode.Dark;
-    }
-
     [HarmonyPatch(typeof(AssetRegistry), "Init")]
     public class AssetRegistryPatch
     {
@@ -38,21 +24,23 @@ namespace BMEffects_Remaster
         {
             try
             {
-                string dllPath = Assembly.GetExecutingAssembly().Location;
-                string dllDir = Path.GetDirectoryName(dllPath);
-                string configPath = Path.Combine(dllDir, "config.json");
-                string json = File.ReadAllText(configPath);
-                var obj = JObject.Parse(json);
-                string mode = (string)obj["mode"];
-                if (Enum.TryParse(typeof(Mode), mode, true, out object result)) Constants.mode = (Mode)result;
+                //string dllPath = Assembly.GetExecutingAssembly().Location;
+                //string dllDir = Path.GetDirectoryName(dllPath);
+                //string configPath = Path.Combine(dllDir, "config.json");
+                //string json = File.ReadAllText(configPath);
+                //var obj = JObject.Parse(json);
+                //string mode = (string)obj["mode"];
+                //if (Enum.TryParse(typeof(Mode), mode, true, out object result)) Constants.mode = (Mode)result;
+
+                Mode mode = ProfileManager.Instance.GetModule<BMEConfig>().mode;
 
                 Dictionary<string, GameObject> assetDict = AssetLoader.GetAllAssets(new Guid(ModInfo.AssetbundleGUID));
 
                 // pulse
                 pulse = BMEUtilss.MakeClipDefinition(assetDict["pulse_sfx"].GetComponent<AudioSource>().clip);
 
-                if (Constants.mode == Mode.Plain) assetDict["laser_pulse"] = assetDict["laser_pulse plain"];
-                else if (Constants.mode == Mode.Dark) assetDict["laser_pulse"] = assetDict["laser_pulse dark"];
+                if (mode == Mode.Plain) assetDict["laser_pulse"] = assetDict["laser_pulse plain"];
+                else if (mode == Mode.Dark) assetDict["laser_pulse"] = assetDict["laser_pulse dark"];
                 else assetDict["laser_pulse"] = assetDict["laser_pulse light"];
 
                 // cont
@@ -60,8 +48,8 @@ namespace BMEffects_Remaster
                 wave_end = BMEUtilss.MakeClipDefinition(assetDict["wave_sfx_end"].GetComponent<AudioSource>().clip);
                 wave = BMEUtilss.MakeClipDefinition(assetDict["wave_sfx"].GetComponent<AudioSource>().clip);
 
-                if (Constants.mode == Mode.Plain) assetDict["laser_cont"] = assetDict["laser_cont plain"];
-                else if (Constants.mode == Mode.Dark) assetDict["laser_cont"] = assetDict["laser_cont dark"];
+                if (mode == Mode.Plain) assetDict["laser_cont"] = assetDict["laser_cont plain"];
+                else if (mode == Mode.Dark) assetDict["laser_cont"] = assetDict["laser_cont dark"];
                 else assetDict["laser_cont"] = assetDict["laser_cont light"];
 
                 // pac

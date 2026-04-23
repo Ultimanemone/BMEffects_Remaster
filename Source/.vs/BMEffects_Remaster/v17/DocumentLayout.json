@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\MTMT\\BMEffects_Remaster\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:corepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\uipatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:uipatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:coreplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:fxpatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:pacbeamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|d:\\mtmt\\bmeffects_remaster\\source\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D53EEAB-3AC7-449A-B241-962F3B745325}|BMEffects_Remaster.csproj|solutionrelative:modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +38,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CorePatcher.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
+              "RelativeDocumentMoniker": "CorePatcher.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
+              "RelativeToolTip": "CorePatcher.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAArwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T14:35:49.805Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "UI.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\UI.cs",
+              "RelativeDocumentMoniker": "UI.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\UI.cs",
+              "RelativeToolTip": "UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T14:21:49.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIPatch.cs",
+              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\UIPatch.cs",
+              "RelativeDocumentMoniker": "UIPatch.cs",
+              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\UIPatch.cs",
+              "RelativeToolTip": "UIPatch.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T14:21:44.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PacBeamer.cs",
               "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\PacBeamer.cs",
               "RelativeDocumentMoniker": "PacBeamer.cs",
@@ -46,11 +105,12 @@
               "RelativeToolTip": "PacBeamer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T09:36:33.693Z"
+              "WhenOpened": "2026-04-19T09:36:33.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CorePlugin.cs",
               "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePlugin.cs",
               "RelativeDocumentMoniker": "CorePlugin.cs",
@@ -58,44 +118,34 @@
               "RelativeToolTip": "CorePlugin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T09:36:19.131Z"
+              "WhenOpened": "2026-04-19T09:36:19.131Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FXPatcher.cs",
               "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\FXPatcher.cs",
               "RelativeDocumentMoniker": "FXPatcher.cs",
               "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\FXPatcher.cs",
               "RelativeToolTip": "FXPatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T09:15:38.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CorePatcher.cs",
-              "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
-              "RelativeDocumentMoniker": "CorePatcher.cs",
-              "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\CorePatcher.cs",
-              "RelativeToolTip": "CorePatcher.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAiwEcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T09:14:30.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ModInfo.cs",
               "DocumentMoniker": "D:\\MTMT\\BMEffects_Remaster\\Source\\ModInfo.cs",
               "RelativeDocumentMoniker": "ModInfo.cs",
               "ToolTip": "D:\\MTMT\\BMEffects_Remaster\\Source\\ModInfo.cs",
               "RelativeToolTip": "ModInfo.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowHYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T09:20:05.757Z"
+              "WhenOpened": "2026-02-03T09:20:05.757Z",
+              "EditorCaption": ""
             }
           ]
         }
