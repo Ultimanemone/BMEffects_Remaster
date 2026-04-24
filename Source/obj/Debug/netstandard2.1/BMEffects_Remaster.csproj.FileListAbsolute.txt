@@ -578,3 +578,6 @@ C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\MTMT_VFXCore.pdb
 C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\obj\Debug\netstandard2.1\BMEffect.40972329.Up2Date
 D:\MTMT\BMEffects_Remaster\Source\obj\Debug\netstandard2.1\BMEffect.40972329.Up2Date
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\PlayerProfiles.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\LOTTE\Documents\From The Depths\Mods\BMEffectsRemaster\Source\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll

@@ -25,7 +25,7 @@
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\Modding.dll</HintPath>
     </Reference>
     <Reference Include="MTMT_VFXCore">
-      <HintPath>C:\Users\NoOne\Documents\From The Depths\Mods\MTMTVFXCore\MTMT_VFXCore.dll</HintPath>
+      <HintPath>..\..\MTMTVFXCore\MTMT_VFXCore.dll</HintPath>
     </Reference>
     <Reference Include="NetInfrastructure">
       <HintPath>D:\SteamLibrary\steamapps\common\From The Depths\From_The_Depths_Data\Managed\NetInfrastructure.dll</HintPath>

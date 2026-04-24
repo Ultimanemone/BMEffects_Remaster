@@ -73,7 +73,7 @@ namespace BMEffects_Remaster
         {
             if (modName == "BMEffects_Remaster")
             {
-                if (type.GetType() == typeof(MuzzleFlashName) || type.GetType() == typeof(ExplosionName))
+                if (type.GetType() == typeof(MuzzleFlash) || type.GetType() == typeof(Explosion))
                 {
                     List<GameObject> smokes = obj.GetComponentsInChildren<Transform>(true)
                                               .Where(t => t.name.Contains("Smoke"))

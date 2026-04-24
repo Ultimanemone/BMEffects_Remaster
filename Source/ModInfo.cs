@@ -89,10 +89,10 @@ namespace BMEffects_Remaster
             ModProblemOverwrite($"{ModName}  v{_version}  Active!", ModPath, string.Empty, false);
         }
 
-        private static void ModProblemOverwrite(string InitModName, string InitModPath, string InitDescription, bool InitIsError)
+        private static void ModProblemOverwrite(string InitMod, string InitModPath, string InitDescription, bool InitIsError)
         {
             ModProblems.AllModProblems.Remove(InitModPath);
-            ModProblems.AddModProblem(InitModName, InitModPath, InitDescription, InitIsError);
+            ModProblems.AddModProblem(InitMod, InitModPath, InitDescription, InitIsError);
         }
 
         private static void SteamUGCRequest(ITimeStep t)
