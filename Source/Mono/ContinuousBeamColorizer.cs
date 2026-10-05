@@ -1,8 +1,13 @@
+using BMEffects_Remaster.Core;
+using BMEffects_Remaster.Patches.SFX;
+using BMEffects_Remaster.UI;
+using BrilliantSkies.Modding.Types;
+using BrilliantSkies.PlayerProfiles;
 using System.Linq;
 using UnityEngine;
 
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Mono
 {
     public class ContinuousBeamColorizer : MonoBehaviour
     {
@@ -56,8 +61,33 @@ namespace BMEffects_Remaster
 
             if (_counter == 0f && _started)
             {
-                BMEUtilss.PlaySound(AssetRegistryPatch.wave_end, transform.position, 1.5f);
+                ContinuousLaserSFXPatch.PlayEnd(transform.position);
                 _started = false;
+            }
+        }
+
+        private void OnEnable()
+        {
+            Core.CorePatcher.OnModeSwap += SetMat;
+        }
+
+        private void OnDisable()
+        {
+            Core.CorePatcher.OnModeSwap -= SetMat;
+        }
+
+        private void SetMat(Mode mode)
+        {
+            LineRenderer lr = _lrList.FirstOrDefault(x => x.name == "Core");
+            MaterialRegistry.TryGetMat(BMEUtils.GetLaserModeName(false), out Material lrMat);
+            lr.material = lrMat;
+            MaterialRegistry.TryGetMat(BMEUtils.GetLaserModeName(false) + " flash", out Material psMat);
+            foreach (ParticleSystem ps in _psList)
+            {
+                if (ps.name == "Flash")
+                {
+                    ps.GetComponent<Renderer>().material = psMat;
+                }
             }
         }
 
@@ -65,7 +95,7 @@ namespace BMEffects_Remaster
         {
             if (_counter == 0f)
             {
-                BMEUtilss.PlaySound(AssetRegistryPatch.wave_start, start, 1.5f);
+                ContinuousLaserSFXPatch.PlayStart(start);
                 _starter?.Play();
                 _started = true;
             }
@@ -75,11 +105,14 @@ namespace BMEffects_Remaster
 
             _width = width;
 
-            if (Mathf.Abs((end - _prevEnd).magnitude) > end.magnitude / 2f) _prevEnd = end;
+            //if (Mathf.Abs((end - _prevEnd).magnitude) > end.magnitude / 2f) _prevEnd = end;
             Vector3 predStart = start * 2f - _prevStart;
-            Vector3 predEnd = end * 2f - _prevEnd;
+            //Vector3 predEnd = end * 2f - _prevEnd;
 
+            //Vector3 predStart = start;
+            Vector3 predEnd = end;
             Vector3 dir = (predEnd - predStart).normalized;
+            // bro why only the start brokeyyyyy
 
             transform.localPosition = predStart;
             transform.forward = dir;

@@ -7,7 +7,7 @@ using System.IO;
 using System;
 using System.Reflection;
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Core
 {
     public static class ModInfo
     {
@@ -136,9 +136,10 @@ namespace BMEffects_Remaster
                     }
                 }
 
-                if (latestVersion != null && _version.CompareTo(latestVersion) == -1)
+                if (latestVersion != null)
                 {
-                    ModProblemOverwrite(ModName, ModPath, "New version released! v" + latestVersion, false);
+                    if (_version.CompareTo(latestVersion) == -1) ModProblemOverwrite(ModName, ModPath, "New version released! v" + latestVersion, false);
+                    if (_version.CompareTo(latestVersion) == 1) ModProblemOverwrite(ModName, ModPath, "<color=#0F0>Your mod is ahead in version!!! v" + _version + "</color>", false);
                 }
             }
         }

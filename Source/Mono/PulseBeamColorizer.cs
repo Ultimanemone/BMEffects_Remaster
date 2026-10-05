@@ -1,7 +1,11 @@
+using BMEffects_Remaster.Core;
+using BMEffects_Remaster.UI;
+using BrilliantSkies.PlayerProfiles;
+using System.Linq;
 using UnityEngine;
 
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Mono
 {
     public class PulseBeamColorizer : MonoBehaviour
     {
@@ -35,7 +39,7 @@ namespace BMEffects_Remaster
             _psList = GetComponentsInChildren<ParticleSystem>();
             _lr = GetComponentInChildren<LineRenderer>();
         }
-
+        
         public void Fire(Color color, Vector3 start, Vector3 end, float width)
         {
             _counter = timer;
@@ -67,6 +71,15 @@ namespace BMEffects_Remaster
                     }
                 }
             }
+
+            MaterialRegistry.TryGetMat(BMEUtils.GetLaserModeName(), out Material lrMat);
+            _lr.material = lrMat;
+            ParticleSystem ps1 = _psList.FirstOrDefault(x => x.name == "Flash");
+            ParticleSystem ps2 = _psList.FirstOrDefault(x => x.name == "Flash (1)");
+            MaterialRegistry.TryGetMat(BMEUtils.GetLaserModeName() + " flash", out Material ps1Mat);
+            MaterialRegistry.TryGetMat(BMEUtils.GetLaserModeName() + " flash (1)", out Material ps2Mat);
+            ps1.GetComponent<Renderer>().material = ps1Mat;
+            ps2.GetComponent<Renderer>().material = ps2Mat;
         }
 
         private void Update()

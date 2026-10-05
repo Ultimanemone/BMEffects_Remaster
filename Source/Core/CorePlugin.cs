@@ -2,7 +2,7 @@
 using HarmonyLib;
 using System;
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Core
 {
     public class CorePlugin : GamePlugin_PostLoad
     {

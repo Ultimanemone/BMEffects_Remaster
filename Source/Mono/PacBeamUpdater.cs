@@ -1,11 +1,12 @@
-﻿using System;
+﻿using BMEffects_Remaster.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Mono
 {
-    public class PacBeamer : MonoBehaviour
+    public class PacBeamUpdater : MonoBehaviour
     {
         private float lifetime = 2f;
         private float width = 9f;
@@ -62,7 +63,7 @@ namespace BMEffects_Remaster
             counter = Mathf.Max(0, counter - Time.deltaTime);
             float t = 1 - counter / lifetime;
 
-            mpb.SetFloat("_Dissolve", BMEUtilss.dissolveCurve.Evaluate(t));
+            mpb.SetFloat("_Dissolve", BMEUtils.dissolveCurve.Evaluate(t));
             beam.SetPropertyBlock(mpb);
             beam.widthMultiplier = widthCurve.Evaluate(t) * width;
             Color c1 = beamGradient.Evaluate(t);

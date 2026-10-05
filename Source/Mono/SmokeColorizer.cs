@@ -4,9 +4,9 @@ using System.Text;
 using UnityEngine;
 using BrilliantSkies.Environments;
 
-namespace BMEffects_Remaster
+namespace BMEffects_Remaster.Mono
 {
-    internal class SmokeColorer : MonoBehaviour
+    internal class SmokeColorizer : MonoBehaviour
     {
         private Material mat;
         private Color color1;

@@ -1,7 +1,7 @@
 {
   "_comments": "",
   "name": "BMEffects_Remaster",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "gameversion": "4.2.8",
   "depends": ["MTMT VFX Core"],
   "conflicts": [],

@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.60f1
-CRC: 62370909
+CRC: 4156377117
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9421783a21e56d5de74ab329ea8f3bcd
+    Hash: 3ca35438b1a06075ae75dd65b3cb9fd4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 754264ae64a8e982546508a9e391b2d0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ae1c10b665223fac70bb704b246abb13
+    Hash: 0f6bc3e1cb6b5b487a6a0020aba951f2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -81,10 +81,13 @@ Assets:
 - Assets/Assets/BM Effects/Materials/Fire_UVCut.mat
 - Assets/Assets/BM Effects/VFX/Explosions/Expl_Big.prefab
 - Assets/Assets/BM Effects/Texture/SimpleSmoke_White.png
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Small.prefab
 - Assets/Assets/BM Effects/Mat2/wepsub.mat
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Biggest.prefab
 - Assets/Assets/BM Effects/ocean/NonWaterTex.renderTexture
 - Assets/Assets/BM Effects/Materials/ShotParticle.mat
 - Assets/Assets/BM Effects/Texture/Smoke.png
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Bigger.prefab
 - Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Big.prefab
 - Assets/Assets/BM Effects/Materials/pulseCore Light.mat
 - Assets/Assets/BM Effects/VFX/Beam/Wave_SFX_End.prefab
@@ -102,6 +105,7 @@ Assets:
 - Assets/Assets/BM Effects/VFX/Splash/HugeSplash.prefab
 - Assets/Assets/BM Effects/Materials/DistBomMat.mat
 - Assets/Assets/BM Effects/SFX/wave_laser_start.wav
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Big.prefab
 - Assets/Assets/BM Effects/Texture/SmokeNormal.png
 - Assets/Assets/BM Effects/VFX/Beam/Wave_SFX.prefab
 - Assets/Assets/BM Effects/Materials/Flash 1.mat
@@ -149,6 +153,7 @@ Assets:
 - Assets/Assets/BM Effects/Materials/DefaultParticle.mat
 - Assets/Assets/BM Effects/Materials/laserBeam.mat
 - Assets/Assets/BM Effects/Texture/Thunder.png
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Medium.prefab
 - Assets/Assets/BM Effects/Materials/FireLoop_Gravity.mat
 - Assets/Assets/BM Effects/Fire.png
 - Assets/Assets/BM Effects/Texture/ShockWaveRound.png
@@ -187,10 +192,12 @@ Assets:
 - Assets/Assets/BM Effects/lens dirt/LensDirt00.png
 - Assets/Assets/BM Effects/Texture/GWater.png
 - Assets/Assets/BM Effects/Texture/SimpleSmoke.png
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleRail_Medium.prefab
 - Assets/Assets/BM Effects/Shaders/laserCore.shadergraph
 - Assets/Assets/BM Effects/VFX/Beam/Laser_Pulse Plain.prefab
 - Assets/Assets/BM Effects/Materials/Smoke_NoFire.mat
 - Assets/Assets/BM Effects/Materials/ShieldMat.mat
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleRail_Big.prefab
 - Assets/Assets/BM Effects/lens dirt/LensDirt02.png
 - Assets/Assets/BM Effects/Texture/empty.png
 - Assets/Assets/BM Effects/Texture/FireAnm.png
@@ -221,12 +228,15 @@ Assets:
 - Assets/Assets/BM Effects/Materials/SmokeExpl.mat
 - Assets/Assets/BM Effects/VFX/Beam/PAC_beam.prefab
 - Assets/Assets/BM Effects/VFX/Muzzle/MuzzleRail_Medium.prefab
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleRail_Small.prefab
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Tiny.prefab
 - Assets/Assets/BM Effects/lens dirt/LensDirt01.png
 - Assets/Assets/BM Effects/bm_godray/BM_GodRayMat.mat
 - Assets/Assets/BM Effects/Shaders/sm_add_shockwave.shader
 - Assets/Assets/BM Effects/VFX/Beam/Laser_Cont Dark.prefab
 - Assets/Assets/BM Effects/VFX/Beam/SingleThunder.prefab
 - Assets/Assets/BM Effects/Materials/flashShine Dark.mat
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Gigant.prefab
 - Assets/Assets/BM Effects/Shaders/pacBeam.shadergraph
 - Assets/Assets/BM Effects/Mat2/sub.mat
 - Assets/Assets/BM Effects/VFX/Beam/PAC_SFX Big.prefab
@@ -242,6 +252,7 @@ Assets:
 - Assets/Assets/BM Effects/SFX/742583__headphaze__sci-fi-gunshot-heavy-blast-weapon.wav
 - Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Bigger.prefab
 - Assets/Assets/BM Effects/Texture/BeamHead.png
+- Assets/Assets/DEPRECATED/Muzzle/MuzzleFlash_Huge.prefab
 - Assets/Assets/BM Effects/Materials/NormalParticle_Alpha.mat
 - Assets/Assets/BM Effects/Texture/HDRGradient.exr
 - Assets/Assets/BM Effects/VFX/Muzzle/MuzzleFlash_Biggest.prefab
